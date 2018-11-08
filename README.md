@@ -47,6 +47,19 @@ Client programs can interface with the server directly or the server users subsc
 Udp streams can choose to stream just audio just video at some resolution or tap into a recording where the audio and video is syncd.
 ### Server layout
 will determin.
+
+## What is the commit structure?
+I've tried feature branches. They were a mess.
+So I don't know what I'll do but probably this:
+ - minor changes will be increased by 0.0.1 for fixing stuff correctly
+ - major changes will be increased by 0.1.0 for adding stuff working
+ - release changes will increase by 1.0.0 done... so in your dreams
+ - forks that just fix stuff can be marked \*.[a-z].1
+ - forks that add stuff can be marked \*.[a-z].1.0 
+ - forks that actualy work... lol never but they cool like [a-z].[1-4].0.0
+otherwise everything is pushed to master.
+weird glitches can get branches so that might happen. They will get funky names.
+
 ## Why are you doing this ?
 The point of the project is to develop content delivery.
 Why? Because I want it. And because I think there's too much power in video and streaming networks and I want to provide people with more control.
