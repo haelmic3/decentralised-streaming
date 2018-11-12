@@ -48,8 +48,16 @@ Udp streams can choose to stream just audio just video at some resolution or tap
 ### Server layout
 will determin.
 
+## Open-Souce Closed-Commit
+To keep the source clean this project will not accept code from unknown indeviduals.
+Please feel free to fork under the provided license but never push to to the source.
+This is a slow-moving project.
+This is a usecase of applied code to be completed over years.
+The commit structure is fragile by design.
+
 ## What is the commit structure?
-I've tried feature branches. They were a mess.
+
+I've worked with feature branches. They were a mess.
 So I don't know what I'll do but probably this:
  - minor changes will be increased by 0.0.1 for fixing stuff correctly
  - major changes will be increased by 0.1.0 for adding stuff working
